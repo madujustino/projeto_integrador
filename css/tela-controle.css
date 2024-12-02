@@ -1,0 +1,75 @@
+.containe{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.controle-top, .controle-central{
+    width: 120vw;
+    padding: 5rem 3rem 1rem 3rem;
+          /* cima dir  baixo esq */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.controle-area{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    width: 100vw;
+}
+.controle-top h3{
+    background-color: #8d8d8d;
+    width: 360px;
+    padding: .3rem 1rem;
+    border-radius: .5rem;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e2e2e2;
+}
+
+.lista-controles-novos{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.controles{
+    width: 360px;
+}
+.controle-novo{
+    background-color: #d9d9d9;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 160px;
+    justify-content: space-between;
+   
+}
+.titulo-controle{
+    font-size: 18px;
+}
+.descricao-controle{
+    font-size: 12px;
+    height: 42px;
+}
+.controle-central{
+    padding-top: 0;
+}
+.controle-novo .status{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.lista-controles-lido{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+
